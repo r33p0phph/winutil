@@ -111,7 +111,7 @@
                                 <RowDefinition Height="*"/>
                             </Grid.RowDefinitions>
                             <StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="0" Margin="10">
-                                <Label Content="Corp Laptop" FontSize="16" Margin="5,0"/>
+                                <Label Content="Corp Laptop/Surface" FontSize="16" Margin="5,0"/>
                                 <CheckBox Name="Installbrave" Content="Brave" Margin="5,0"/>
                                 <CheckBox Name="Installchrome" Content="Chrome" Margin="5,0"/>
                                 <CheckBox Name="Installchromium" Content="Chromium" Margin="5,0"/>
