@@ -39,7 +39,7 @@
 							<RowDefinition Height="*"/>
 						</Grid.RowDefinitions>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="0" Margin="10">
-							<Label Content="Browsers" FontSize="16" Margin="5,0"/>
+							<Label Content="Corp Laptop" FontSize="16" Margin="5,0"/>
 							<CheckBox Name="Installbrave" Content="Brave" Margin="5,0"/>
 							<CheckBox Name="Installchrome" Content="Chrome" Margin="5,0"/>
 							<CheckBox Name="Installchromium" Content="Chromium" Margin="5,0"/>
@@ -49,7 +49,7 @@
 							<CheckBox Name="Installvivaldi" Content="Vivaldi" Margin="5,0"/>
 
 
-							<Label Content="Communications" FontSize="16" Margin="5,0"/>
+							<Label Content="Corp Laptop" FontSize="16" Margin="5,0"/>
 							<CheckBox Name="Installdiscord" Content="Discord" Margin="5,0"/>
 							<CheckBox Name="Installhexchat" Content="Hexchat" Margin="5,0"/>
 							<CheckBox Name="Installjami" Content="Jami" Margin="5,0"/>
