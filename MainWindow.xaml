@@ -121,6 +121,7 @@
                                 <CheckBox Name="Installtor" Content="Tor Browser" Margin="5,0"/>
                                 <CheckBox Name="Installvivaldi" Content="Vivaldi" Margin="5,0"/>
                                 <CheckBox Name="Installwaterfox" Content="Waterfox" Margin="5,0"/>
+                                <CheckBox Name="Installpython3" Content="Python3" Margin="5,0"/>
 
                                 <Label Content="Corp Desktop" FontSize="16" Margin="5,0"/>
                                 <CheckBox Name="Installdiscord" Content="Discord" Margin="5,0"/>
@@ -133,10 +134,10 @@
                                 <CheckBox Name="Installteams" Content="Teams" Margin="5,0"/>
                                 <CheckBox Name="Installtelegram" Content="Telegram" Margin="5,0"/>
                                 <CheckBox Name="Installviber" Content="Viber" Margin="5,0"/>
-                                <CheckBox Name="Installzoom" Content="Zoom" Margin="5,0"/>
+                                
                             </StackPanel>
                             <StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="1" Margin="10">
-                                <Label Content="Development" FontSize="16" Margin="5,0"/>
+                                <Label Content="Store Desktop" FontSize="16" Margin="5,0"/>
                                 <CheckBox Name="Installatom" Content="Atom" Margin="5,0"/>
                                 <CheckBox Name="Installgit" Content="Git" Margin="5,0"/>
                                 <CheckBox Name="Installgithubdesktop" Content="GitHub Desktop" Margin="5,0"/>
@@ -146,15 +147,8 @@
                                 <CheckBox Name="Installjetbrains" Content="Jetbrains Toolbox" Margin="5,0"/>
                                 <CheckBox Name="Installnodejs" Content="NodeJS" Margin="5,0"/>
                                 <CheckBox Name="Installnodejslts" Content="NodeJS LTS" Margin="5,0"/>
-                                <CheckBox Name="Installpython3" Content="Python3" Margin="5,0"/>
-                                <CheckBox Name="Installrustlang" Content="Rust" Margin="5,0"/>
-                                <CheckBox Name="Installsublime" Content="Sublime" Margin="5,0"/>
-                                <CheckBox Name="Installunity" Content="Unity Game Engine" Margin="5,0"/>
-                                <CheckBox Name="Installvisualstudio" Content="Visual Studio 2022" Margin="5,0"/>
-                                <CheckBox Name="Installvscode" Content="VS Code" Margin="5,0"/>
-                                <CheckBox Name="Installvscodium" Content="VS Codium" Margin="5,0"/>
 
-                                <Label Content="Document" FontSize="16" Margin="5,0"/>
+                                <Label Content="Store Logistyx" FontSize="16" Margin="5,0"/>
                                 <CheckBox Name="Installadobe" Content="Adobe Reader DC" Margin="5,0"/>
                                 <CheckBox Name="Installfoxpdf" Content="Foxit PDF" Margin="5,0"/>
                                 <CheckBox Name="Installjoplin" Content="Joplin (FOSS Notes)" Margin="5,0"/>
@@ -170,14 +164,19 @@
                             <StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="2" Margin="10">
 
 
-                                <Label Content="Games" FontSize="16" Margin="5,0"/>
+                                <Label Content="Customer Care" FontSize="16" Margin="5,0"/>
+                                <CheckBox Name="Installbluestacks" Content="Bluestacks" Margin="5,0"/>
+                                <CheckBox Name="Installepicgames" Content="Epic Games Launcher" Margin="5,0"/>
+                                <CheckBox Name="Installgog" Content="GOG Galaxy" Margin="5,0"/>
+                                <CheckBox Name="Installorigin" Content="Origin" Margin="5,0"/>
+                                <CheckBox Name="Installsteam" Content="Steam" Margin="5,0"/>
                                 <CheckBox Name="Installbluestacks" Content="Bluestacks" Margin="5,0"/>
                                 <CheckBox Name="Installepicgames" Content="Epic Games Launcher" Margin="5,0"/>
                                 <CheckBox Name="Installgog" Content="GOG Galaxy" Margin="5,0"/>
                                 <CheckBox Name="Installorigin" Content="Origin" Margin="5,0"/>
                                 <CheckBox Name="Installsteam" Content="Steam" Margin="5,0"/>
 
-                                <Label Content="Pro Tools" FontSize="16" Margin="5,0"/>
+                                <Label Content="DC" FontSize="16" Margin="5,0"/>
                                 <CheckBox Name="Installadvancedip" Content="Advanced IP Scanner" Margin="5,0"/>
                                 <CheckBox Name="Installmremoteng" Content="mRemoteNG" Margin="5,0"/>
                                 <CheckBox Name="Installputty" Content="Putty" Margin="5,0"/>
@@ -185,8 +184,11 @@
                                 <CheckBox Name="Installsimplewall" Content="SimpleWall" Margin="5,0"/>
                                 <CheckBox Name="Installscp" Content="WinSCP" Margin="5,0"/>
                                 <CheckBox Name="Installwireshark" Content="WireShark" Margin="5,0"/>
+                                <CheckBox Name="Installsimplewall" Content="SimpleWall" Margin="5,0"/>
+                                <CheckBox Name="Installscp" Content="WinSCP" Margin="5,0"/>
+                                <CheckBox Name="Installwireshark" Content="WireShark" Margin="5,0"/>
 
-                                <Label Content="Microsoft Tools" FontSize="16" Margin="5,0"/>
+                                <Label Content="Store Kiosk" FontSize="16" Margin="5,0"/>
                                 <CheckBox Name="Installdotnet3" Content=".NET Desktop Runtime 3.1" Margin="5,0"/>
                                 <CheckBox Name="Installdotnet5" Content=".NET Desktop Runtime 5" Margin="5,0"/>
                                 <CheckBox Name="Installdotnet6" Content=".NET Desktop Runtime 6" Margin="5,0"/>
@@ -197,12 +199,11 @@
                                 <CheckBox Name="Installprocessmonitor" Content="SysInternals Process Monitor" Margin="5,0"/>
                                 <CheckBox Name="Installvc2015_64" Content="Visual C++ 2015-2022 64-bit" Margin="5,0"/>
                                 <CheckBox Name="Installvc2015_32" Content="Visual C++ 2015-2022 32-bit" Margin="5,0"/>
-                                <CheckBox Name="Installterminal" Content="Windows Terminal" Margin="5,0"/>
 
 
                             </StackPanel>
                             <StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="3" Margin="10">
-                                <Label Content="Multimedia Tools" FontSize="16" Margin="5,0"/>
+                                <Label Content="Store Break Room" FontSize="16" Margin="5,0"/>
                                 <CheckBox Name="Installaudacity" Content="Audacity" Margin="5,0"/>
                                 <CheckBox Name="Installblender" Content="Blender (3D Graphics)" Margin="5,0"/>
                                 <CheckBox Name="Installcider" Content="Cider (FOSS Music Player)" Margin="5,0"/>
@@ -214,18 +215,7 @@
                                 <CheckBox Name="Installhandbrake" Content="HandBrake" Margin="5,0"/>
                                 <CheckBox Name="Installimageglass" Content="ImageGlass (Image Viewer)" Margin="5,0"/>
                                 <CheckBox Name="Installinkscape" Content="Inkscape" Margin="5,0"/>
-                                <CheckBox Name="Installitunes" Content="iTunes" Margin="5,0"/>
-                                <CheckBox Name="Installkdenlive" Content="Kdenlive (Video Editor)" Margin="5,0"/>
-                                <CheckBox Name="Installkodi" Content="Kodi Media Center" Margin="5,0"/>
-                                <CheckBox Name="Installklite" Content="K-Lite Codec Standard" Margin="5,0"/>
-                                <CheckBox Name="Installkrita" Content="Krita (Image Editor)" Margin="5,0"/>
-                                <CheckBox Name="Installmpc" Content="Media Player Classic (Video Player)" Margin="5,0"/>
-                                <CheckBox Name="Installobs" Content="OBS Studio" Margin="5,0"/>
-                                <CheckBox Name="Installnglide" Content="nGlide (3dfx compatibility)" Margin="5,0"/>
-                                <CheckBox Name="Installsharex" Content="ShareX (Screenshots)" Margin="5,0"/>
-                                <CheckBox Name="Installstrawberry" Content="Strawberry (Music Player)" Margin="5,0"/>
-                                <CheckBox Name="Installvlc" Content="VLC (Video Player)" Margin="5,0"/>
-                                <CheckBox Name="Installvoicemeeter" Content="Voicemeeter (Audio)" Margin="5,0"/>
+                    
                             </StackPanel>
                             <StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="4" Margin="10">
                                 <Label Content="Utilities" FontSize="16" Margin="5,0"/>
@@ -238,27 +228,7 @@
                                 <CheckBox Name="Installetcher" Content="Etcher USB Creator" Margin="5,0"/>
                                 <CheckBox Name="Installesearch" Content="Everything Search" Margin="5,0"/>
                                 <CheckBox Name="Installflux" Content="f.lux Redshift" Margin="5,0"/>
-                                <CheckBox Name="Installgpuz" Content="GPU-Z" Margin="5,0"/>
-                                <CheckBox Name="Installglaryutilities" Content="Glary Utilities" Margin="5,0"/>
-                                <CheckBox Name="Installhwinfo" Content="HWInfo" Margin="5,0"/>
-                                <CheckBox Name="Installidm" Content="Internet Download Manager" Margin="5,0"/>
-                                <CheckBox Name="Installjdownloader" Content="J Download Manager" Margin="5,0"/>
-                                <CheckBox Name="Installkeepass" Content="KeePassXC" Margin="5,0"/>
-                                <CheckBox Name="Installmalwarebytes" Content="MalwareBytes" Margin="5,0"/>
-                                <CheckBox Name="Installnvclean" Content="NVCleanstall" Margin="5,0"/>
-                                <CheckBox Name="Installopenshell" Content="Open Shell (Start Menu)" Margin="5,0"/>
-                                <CheckBox Name="Installprocesslasso" Content="Process Lasso" Margin="5,0"/>
-                                <CheckBox Name="Installqbittorrent" Content="qBittorrent" Margin="5,0"/>
-                                <CheckBox Name="Installrevo" Content="RevoUninstaller" Margin="5,0"/>
-                                <CheckBox Name="Installrufus" Content="Rufus Imager" Margin="5,0"/>
-                                <CheckBox Name="Installsandboxie" Content="Sandboxie Plus" Margin="5,0"/>
-                                <CheckBox Name="Installshell" Content="Shell (Expanded Context Menu)" Margin="5,0"/>
-                                <CheckBox Name="Installteamviewer" Content="TeamViewer" Margin="5,0"/>
-                                <CheckBox Name="Installttaskbar" Content="Translucent Taskbar" Margin="5,0"/>
-                                <CheckBox Name="Installtreesize" Content="TreeSize Free" Margin="5,0"/>
-                                <CheckBox Name="Installtwinkletray" Content="Twinkle Tray" Margin="5,0"/>
-                                <CheckBox Name="Installwindirstat" Content="WinDirStat" Margin="5,0"/>
-                                <CheckBox Name="Installwiztree" Content="WizTree" Margin="5,0"/>
+      
                                 <Button Name="install" Background="AliceBlue" Content="Start Install" HorizontalAlignment = "Left" Margin="5,0" Padding="20,5" Width="150" ToolTip="Install all checked programs"/>
                                 <Button Name="InstallUpgrade" Background="AliceBlue" Content="Upgrade Installs" HorizontalAlignment = "Left" Margin="5,0,0,5" Padding="20,5" Width="150" ToolTip="Upgrade All Existing Programs on System"/>
 
