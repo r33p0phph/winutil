@@ -11,7 +11,7 @@ $BranchToUse = 'main'
 Start-Transcript $ENV:TEMP\Winutil.log -Append
 
 # $inputXML = Get-Content "MainWindow.xaml" #uncomment for development
-$inputXML = (new-object Net.WebClient).DownloadString("https://raw.githubusercontent.com/ChrisTitusTech/winutil/$BranchToUse/MainWindow.xaml") #uncomment for Production
+ $inputXML = (new-object Net.WebClient).DownloadString("https://raw.githubusercontent.com/r33p0phph/winutil/main/MainWindow.xaml") #uncomment for Production
 
 # Check if chocolatey is installed and get its version
 if ((Get-Command -Name choco -ErrorAction Ignore) -and ($chocoVersion = (Get-Item "$env:ChocolateyInstall\choco.exe" -ErrorAction Ignore).VersionInfo.ProductVersion)) {
@@ -32,7 +32,7 @@ $configs = @{}
     "feature"
 ) | ForEach-Object {
     #$configs["$PSItem"] = Get-Content .\config\$PSItem.json | ConvertFrom-Json
-    $configs["$psitem"] = Invoke-RestMethod "https://raw.githubusercontent.com/ChrisTitusTech/winutil/$BranchToUse/config/$psitem.json"
+    $configs["$psitem"] = Invoke-RestMethod "https://raw.githubusercontent.com/r33p0phph/winutil/main/config/$psitem.json"
 }
 
 
@@ -69,26 +69,28 @@ Function Get-FormVariables {
     #If ($global:ReadmeDisplay -ne $true) { Write-host "If you need to reference this display again, run Get-FormVariables" -ForegroundColor Yellow; $global:ReadmeDisplay = $true }
     
 
-    write-host ""                                                                                                                             
-    write-host "    CCCCCCCCCCCCCTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT   "
-    write-host " CCC::::::::::::CT:::::::::::::::::::::TT:::::::::::::::::::::T   "
-    write-host "CC:::::::::::::::CT:::::::::::::::::::::TT:::::::::::::::::::::T  "
-    write-host "C:::::CCCCCCCC::::CT:::::TT:::::::TT:::::TT:::::TT:::::::TT:::::T "
-    write-host "C:::::C       CCCCCCTTTTTT  T:::::T  TTTTTTTTTTTT  T:::::T  TTTTTT"
-    write-host "C:::::C                     T:::::T                T:::::T        "
-    write-host "C:::::C                     T:::::T                T:::::T        "
-    write-host "C:::::C                     T:::::T                T:::::T        "
-    write-host "C:::::C                     T:::::T                T:::::T        "
-    write-host "C:::::C                     T:::::T                T:::::T        "
-    write-host "C:::::C                     T:::::T                T:::::T        "
-    write-host "C:::::C       CCCCCC        T:::::T                T:::::T        "
-    write-host "C:::::CCCCCCCC::::C      TT:::::::TT            TT:::::::TT       "
-    write-host "CC:::::::::::::::C       T:::::::::T            T:::::::::T       "
-    write-host "CCC::::::::::::C         T:::::::::T            T:::::::::T       "
-    write-host "  CCCCCCCCCCCCC          TTTTTTTTTTT            TTTTTTTTTTT       "
+    write-host "  __  __                     _____           _                        "
+    write-host " |  \/  |                   / ____|         (_)                       "
+    write-host " | \  / | ___  __ _  __ _  | (___   ___ _ __ _ _ __                   "
+    write-host " | |\/| |/ _ \/ _` |/ _` |  \___ \ / __| '__| | '_ \                  "
+    write-host " | |  | |  __| (_| | (_| |  ____) | (__| |  | | |_) |                 "
+    write-host " |_|  |_|\___|\__, |\__,_| |_____/ \___|_|  |_| .__/                  "
+    write-host "  __  __       __/ |        _                 | |                     "
+    write-host " |  \/  |     |___/ |      | |                |_|                     "
+    write-host " | \  / | __ _  __| | ___  | |__  _   _                               "
+    write-host " | |\/| |/ _` |/ _` |/ _ \ | '_ \| | | |                              "
+    write-host " | |  | | (_| | (_| |  __/ | |_) | |_| |                              "
+    write-host " |_|__|_|\__,_|\__,_|\___| |_.__/ \__, |  _                           "
+    write-host "  / ____|                          __/ | | |                          "
+    write-host " | (___   ___   ___ _ __ ___ _ __ |___/  | | ___ _ __  ___  ___ _ __  "
+    write-host "  \___ \ / _ \ / _ | '__/ _ | '_ \   _   | |/ _ | '_ \/ __|/ _ | '_ \ "
+    write-host "  ____) | (_) |  __| | |  __| | | | | |__| |  __| | | \__ |  __| | | |"
+    write-host " |_____/ \___/ \___|_|  \___|_| |_|  \____/ \___|_| |_|___/\___|_| |_|"                         
     write-host ""
-    write-host "====Chris Titus Tech====="
-    write-host "=====Windows Toolbox====="
+    write-host ""
+    write-host "==== Made by Chris Titus Tech====="
+    write-host "==== Updated by Soeren Jensen====="
+    write-host "=====Mega Script====="
                            
  
     #====DEBUG GUI Elements====
