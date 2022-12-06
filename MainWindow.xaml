@@ -170,8 +170,6 @@
                                 <CheckBox Name="Installgog" Content="GOG Galaxy" Margin="5,0"/>
                                 <CheckBox Name="Installorigin" Content="Origin" Margin="5,0"/>
                                 <CheckBox Name="Installsteam" Content="Steam" Margin="5,0"/>
-                                <CheckBox Name="1" Content="1" Margin="5,0"/>
-                                <CheckBox Name="2" Content="2" Margin="5,0"/>
                                 <CheckBox Name="Installgog" Content="GOG Galaxy" Margin="5,0"/>
                                 <CheckBox Name="Installorigin" Content="Origin" Margin="5,0"/>
                                 <CheckBox Name="Installsteam" Content="Steam" Margin="5,0"/>
