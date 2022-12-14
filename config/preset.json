@@ -1,5 +1,5 @@
 {
-  "desktop": [
+  "Corp": [
     "WPFEssTweaksAH",
     "WPFEssTweaksDVR",
     "WPFEssTweaksHiber",
@@ -14,7 +14,7 @@
     "WPFMiscTweaksPower",
     "WPFMiscTweaksNum"
   ],
-  "laptop": [
+  "Store": [
     "WPFEssTweaksAH",
     "WPFEssTweaksDVR",
     "WPFEssTweaksHome",
