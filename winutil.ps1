@@ -309,11 +309,11 @@ $WPFInstallUpgrade.Add_Click({
 # Tab 2 - Tweak Buttons
 #===========================================================================
 $WPFdesktop.Add_Click({
-    Set-Presets "Desktop"
+    Set-Presets "Corp"
 })
 
 $WPFlaptop.Add_Click({
-    Set-Presets "laptop"
+    Set-Presets "Store"
 })
 
 $WPFminimal.Add_Click({
