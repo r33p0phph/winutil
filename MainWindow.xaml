@@ -110,6 +110,12 @@
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="*"/>
                             </Grid.RowDefinitions>
+                            <StackPanel Background="#777777" Orientation="Horizontal" Grid.Row="0" HorizontalAlignment="Center" Grid.ColumnSpan="2" Margin="10">
+                                <Label Content="Recommended Selections:" FontSize="17" VerticalAlignment="Center"/>
+                                <Button Name="Corp" Content="Corp" Margin="7"/>
+                                <Button Name="Store" Content="Store" Margin="7"/>
+                                <Button Name="minimal" Content="Minimal" Margin="7"/>
+                            </StackPanel>
                             <StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="0" Margin="10">
                                 <Label Content="Browsers" FontSize="16" Margin="5,0"/>
                                 <CheckBox Name="Installbrave" Content="Brave" Margin="5,0"/>
