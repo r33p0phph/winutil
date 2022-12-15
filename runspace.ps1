@@ -48,8 +48,8 @@ function Invoke-Button {
 
         "*Tab*BT*" {switchtab $Button}
         "*InstallUpgrade*" {Invoke-command $sync.GUIInstallPrograms -ArgumentList "Upgrade"}
-        "*desktop*" {Tweak-Buttons $Button}
-        "*laptop*" {Tweak-Buttons $Button}
+        "*Corp*" {Tweak-Buttons $Button}
+        "*Store*" {Tweak-Buttons $Button}
         "*minimal*" {Tweak-Buttons $Button}
         "*undoall*" {Invoke-command $Sync.GUIUndoTweaks}
         "install" {Invoke-command $sync.GUIInstallPrograms -ArgumentList "$(uncheckall "Install")"}

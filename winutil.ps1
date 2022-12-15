@@ -1,4 +1,4 @@
-#for CI/CD
+﻿#for CI/CD
 $BranchToUse = 'main'
 
 <#
@@ -224,7 +224,7 @@ $WPFinstall.Add_Click({
                 # Switching to winget-install from PSGallery from asheroto
                 # Source: https://github.com/asheroto/winget-installer
                 
-                Start-Process powershell.exe -Verb RunAs -ArgumentList "-command irm https://raw.githubusercontent.com/ChrisTitusTech/winutil/$BranchToUse/winget.ps1 | iex | Out-Host" -WindowStyle Normal
+                Start-Process powershell.exe -Verb RunAs -ArgumentList "-command irm https://raw.githubusercontent.com/r33p0phph/winutil/main/winget.ps1 | iex | Out-Host" -WindowStyle Normal
                 
             }
             elseif (((Get-ComputerInfo).WindowsVersion) -lt "1809") {
@@ -308,11 +308,11 @@ $WPFInstallUpgrade.Add_Click({
 #===========================================================================
 # Tab 2 - Tweak Buttons
 #===========================================================================
-$WPFdesktop.Add_Click({
+$WPFCorp.Add_Click({
     Set-Presets "Corp"
 })
 
-$WPFlaptop.Add_Click({
+$WPFStore.Add_Click({
     Set-Presets "Store"
 })
 
@@ -822,7 +822,7 @@ $WPFtweaksbutton.Add_Click({
         }
         If ( $WPFEssTweaksRemoveEdge.IsChecked -eq $true ) {
             Write-Host "Removing Microsoft Edge..."
-            Invoke-WebRequest -useb https://raw.githubusercontent.com/ChrisTitusTech/winutil/$BranchToUse/Edge_Removal.bat | Invoke-Expression
+            Invoke-WebRequest -useb https://raw.githubusercontent.com/r33p0phph/winutil/main/Edge_Removal.bat | Invoke-Expression
             $WPFEssTweaksRemoveEdge.IsChecked = $false
         }
         If ( $WPFEssTweaksDeBloat.IsChecked -eq $true ) {
