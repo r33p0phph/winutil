@@ -162,7 +162,7 @@ function Set-Presets {
 # Global Variables
 #===========================================================================
 
-$AppTitle = "Chris Titus Tech's Windows Utility"
+$AppTitle = "Mega Script 2.0"
 
 #===========================================================================
 # Navigation Controls
@@ -196,6 +196,18 @@ $WPFTab4BT.Add_Click({
 #===========================================================================
 # Tab 1 - Install
 #===========================================================================
+
+$WPFCorp.Add_Click({
+    Set-Presets "Corp"
+})
+
+$WPFStore.Add_Click({
+    Set-Presets "Store"
+})
+
+$WPFminimal.Add_Click({
+    Set-Presets "minimal"   
+})
 
 $WPFinstall.Add_Click({
         $WingetInstall = Get-CheckBoxes -Group "WPFInstall"
